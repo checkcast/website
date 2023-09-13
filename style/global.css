@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../font/Raleway-Regular.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    font-family: Raleway;
+    background: #feafd6;
+    border-color: #736b5e;
+    color: #5c357c;
+    text-align: center;
+}
+
+sup {
+    font-size: smaller;
+}
+
+.container {
+    padding: 15px;
+    min-height: calc(100vh - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a:visited {
+    color: blue;
+}
